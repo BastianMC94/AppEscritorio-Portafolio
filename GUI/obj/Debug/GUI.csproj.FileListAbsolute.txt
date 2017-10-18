@@ -1,0 +1,26 @@
+C:\Users\Perry\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\GUI.exe.config
+C:\Users\Perry\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\GUI.exe
+C:\Users\Perry\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\GUI.pdb
+C:\Users\Perry\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\Solucion_Montreal.dll
+C:\Users\Perry\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\Solucion_Montreal.pdb
+C:\Users\Perry\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Perry\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.Formulario.resources
+C:\Users\Perry\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.Login.resources
+C:\Users\Perry\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Perry\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Perry\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.exe
+C:\Users\Perry\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.pdb
+F:\Solucion_Montreal\GUI\bin\Debug\GUI.exe.config
+F:\Solucion_Montreal\GUI\obj\Debug\GUI.exe
+F:\Solucion_Montreal\GUI\obj\Debug\GUI.pdb
+F:\Solucion_Montreal\GUI\bin\Debug\GUI.exe
+F:\Solucion_Montreal\GUI\bin\Debug\GUI.pdb
+F:\Solucion_Montreal\GUI\bin\Debug\Newtonsoft.Json.dll
+F:\Solucion_Montreal\GUI\bin\Debug\Solucion_Montreal.dll
+F:\Solucion_Montreal\GUI\bin\Debug\Solucion_Montreal.pdb
+F:\Solucion_Montreal\GUI\bin\Debug\Newtonsoft.Json.xml
+F:\Solucion_Montreal\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+F:\Solucion_Montreal\GUI\obj\Debug\GUI.Formulario.resources
+F:\Solucion_Montreal\GUI\obj\Debug\GUI.Login.resources
+F:\Solucion_Montreal\GUI\obj\Debug\GUI.Properties.Resources.resources
+F:\Solucion_Montreal\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
