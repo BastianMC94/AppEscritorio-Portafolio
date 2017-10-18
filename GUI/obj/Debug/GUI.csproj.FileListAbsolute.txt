@@ -24,3 +24,6 @@ F:\Solucion_Montreal\GUI\obj\Debug\GUI.Formulario.resources
 F:\Solucion_Montreal\GUI\obj\Debug\GUI.Login.resources
 F:\Solucion_Montreal\GUI\obj\Debug\GUI.Properties.Resources.resources
 F:\Solucion_Montreal\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\GUI.exe.config
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.exe
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.pdb
