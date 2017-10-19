@@ -22,5 +22,11 @@ namespace GUI
 		{
 
 		}
+
+		private void btnIniciarSesion_Click(object sender, EventArgs e)
+		{
+
+		}
+
 	}
 }
