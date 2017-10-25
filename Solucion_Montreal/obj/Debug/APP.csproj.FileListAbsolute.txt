@@ -18,3 +18,10 @@ C:\Users\super\Source\Repos\AppEscritorio-Portafolio\Solucion_Montreal\obj\Debug
 C:\Users\super\Source\Repos\AppEscritorio-Portafolio\Solucion_Montreal\obj\Debug\APP.csproj.CoreCompileInputs.cache
 C:\Users\super\Source\Repos\AppEscritorio-Portafolio\Solucion_Montreal\obj\Debug\Solucion_Montreal.dll
 C:\Users\super\Source\Repos\AppEscritorio-Portafolio\Solucion_Montreal\obj\Debug\Solucion_Montreal.pdb
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\Solucion_Montreal\bin\Debug\Solucion_Montreal.dll
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\Solucion_Montreal\bin\Debug\Solucion_Montreal.pdb
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\Solucion_Montreal\bin\Debug\Newtonsoft.Json.dll
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\Solucion_Montreal\bin\Debug\Newtonsoft.Json.xml
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\Solucion_Montreal\obj\Debug\APP.csprojResolveAssemblyReference.cache
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\Solucion_Montreal\obj\Debug\Solucion_Montreal.dll
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\Solucion_Montreal\obj\Debug\Solucion_Montreal.pdb

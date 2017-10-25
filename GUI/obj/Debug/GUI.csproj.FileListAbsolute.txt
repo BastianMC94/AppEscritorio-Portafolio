@@ -44,3 +44,16 @@ C:\Users\super\Source\Repos\AppEscritorio-Portafolio\GUI\bin\Debug\Newtonsoft.Js
 C:\Users\super\Source\Repos\AppEscritorio-Portafolio\GUI\bin\Debug\Solucion_Montreal.dll
 C:\Users\super\Source\Repos\AppEscritorio-Portafolio\GUI\bin\Debug\Solucion_Montreal.pdb
 C:\Users\super\Source\Repos\AppEscritorio-Portafolio\GUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.Login.resources
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\GUI.exe
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\GUI.pdb
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\MetroFramework.Design.dll
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\MetroFramework.dll
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\Solucion_Montreal.dll
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\Solucion_Montreal.pdb
+C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\Newtonsoft.Json.xml
