@@ -57,3 +57,22 @@ C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin
 C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\Solucion_Montreal.dll
 C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\Solucion_Montreal.pdb
 C:\Users\BASTIAN\Documents\Visual Studio 2015\Projects\Solucion_Montreal\GUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\GUI.exe.config
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\GUI.exe
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\GUI.pdb
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\MetroFramework.Design.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\MetroFramework.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\Solucion_Montreal.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\Solucion_Montreal.pdb
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.Login.resources
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.Menu.resources
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.exe
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.pdb
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.Programa.resources

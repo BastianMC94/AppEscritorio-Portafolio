@@ -13,7 +13,8 @@ namespace System
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Login());
+			//Si quieres probar los otros .cs sólo cambia el GUI.Login por GUI.Menu
+			Application.Run(new GUI.Login());
 		}
 	}
 }

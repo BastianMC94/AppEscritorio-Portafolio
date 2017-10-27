@@ -91,7 +91,7 @@
             this.txtCorreo.MaxLength = 32767;
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.PasswordChar = '\0';
-            this.txtCorreo.PromptText = "encargado@cem.cl";
+            this.txtCorreo.WaterMark = "encargado@cem.cl";
             this.txtCorreo.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtCorreo.SelectedText = "";
             this.txtCorreo.SelectionLength = 0;
@@ -124,7 +124,7 @@
             this.txtContrasena.MaxLength = 32767;
             this.txtContrasena.Name = "txtContrasena";
             this.txtContrasena.PasswordChar = '*';
-            this.txtContrasena.PromptText = "**********";
+            this.txtContrasena.WaterMark = "**********";
             this.txtContrasena.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtContrasena.SelectedText = "";
             this.txtContrasena.SelectionLength = 0;
