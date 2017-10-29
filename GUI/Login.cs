@@ -31,23 +31,9 @@ namespace GUI
         private void btnIniciarSesion_Click(object sender, EventArgs e)
         {
 
-			//Validaciones
-			int count = 0;
-			if (txtCorreo.Text.Equals("") || Convert.ToInt32(txtCorreo.Text) == 0)
-			{
-				MetroMessageBox.Show(this, "Correo no válido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
-				count++;
-				return;
-			}
-			if (txtContrasena.Text.Equals("") || Convert.ToInt32(txtContrasena.Text) == 0)
-			{
-				MetroMessageBox.Show(this, "Contraseña no válida.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
-				count++;
-				return;
-			}
 			#region
 			//Validaciones
-			count = 0;
+			int count = 0;
 
                 if (txtCorreo.Text.Equals("") & txtContrasena.Text.Equals(""))
                 {
