@@ -14,7 +14,7 @@ namespace System
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			//Si quieres probar los otros .cs sólo cambia el GUI.Login por GUI.Menu
-			Application.Run(new GUI.Menu());
+			Application.Run(new GUI.Login());
 		}
 	}
 }
