@@ -17,15 +17,16 @@ namespace GUI
 			InitializeComponent();
 		}
 
-		private void Menu_Load(object sender, EventArgs e)
-		{
-
-		}
-
 		private void btnCrearPrograma_Click(object sender, EventArgs e)
 		{
 			Programa winPrograma = new Programa();
 			winPrograma.ShowDialog();
+		}
+
+		private void metroTile1_Click(object sender, EventArgs e)
+		{
+			listaProgramas winListaPrograma = new listaProgramas();
+			winListaPrograma.ShowDialog();
 		}
 	}
 }

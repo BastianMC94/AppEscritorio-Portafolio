@@ -76,3 +76,4 @@ C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.csproj.CoreCom
 C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.exe
 C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.pdb
 C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.Programa.resources
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.listaProgramas.resources

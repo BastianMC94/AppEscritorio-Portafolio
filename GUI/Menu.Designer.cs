@@ -29,6 +29,7 @@
 		private void InitializeComponent()
 		{
 			this.btnCrearPrograma = new MetroFramework.Controls.MetroTile();
+			this.metroTile1 = new MetroFramework.Controls.MetroTile();
 			this.SuspendLayout();
 			// 
 			// btnCrearPrograma
@@ -46,17 +47,32 @@
 			this.btnCrearPrograma.UseTileImage = true;
 			this.btnCrearPrograma.Click += new System.EventHandler(this.btnCrearPrograma_Click);
 			// 
+			// metroTile1
+			// 
+			this.metroTile1.ActiveControl = null;
+			this.metroTile1.Location = new System.Drawing.Point(247, 98);
+			this.metroTile1.Name = "metroTile1";
+			this.metroTile1.Size = new System.Drawing.Size(150, 90);
+			this.metroTile1.TabIndex = 2;
+			this.metroTile1.Text = "Lista de Programas";
+			this.metroTile1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+			this.metroTile1.TileImage = global::GUI.Properties.Resources.list;
+			this.metroTile1.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+			this.metroTile1.UseSelectable = true;
+			this.metroTile1.UseTileImage = true;
+			this.metroTile1.Click += new System.EventHandler(this.metroTile1_Click);
+			// 
 			// Menu
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.ClientSize = new System.Drawing.Size(452, 261);
+			this.Controls.Add(this.metroTile1);
 			this.Controls.Add(this.btnCrearPrograma);
 			this.MaximizeBox = false;
 			this.Name = "Menu";
 			this.Resizable = false;
 			this.Text = "Menú CEM";
-			this.Load += new System.EventHandler(this.Menu_Load);
 			this.ResumeLayout(false);
 
 		}
@@ -64,5 +80,6 @@
 		#endregion
 
 		private MetroFramework.Controls.MetroTile btnCrearPrograma;
+		private MetroFramework.Controls.MetroTile metroTile1;
 	}
 }
