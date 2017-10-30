@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft;
 
-namespace Solucion_Montreal
+namespace APP
 {
     public class Usuario
     {
@@ -13,7 +13,11 @@ namespace Solucion_Montreal
         public string _correo;
         public string _clave;
 
-        public Usuario(string _correo, string _clave)
+		public Usuario()
+		{
+		}
+
+		public Usuario(string _correo, string _clave)
         {
             this._correo = _correo;
             this._clave = _clave;

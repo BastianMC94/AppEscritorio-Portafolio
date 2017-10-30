@@ -12,6 +12,9 @@ using System.Windows.Forms;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Net;
+using RestSharp;
+using System.IO;
+using APP;
 
 namespace GUI
 {
@@ -20,54 +23,70 @@ namespace GUI
 		public Login()
 		{
 			InitializeComponent();
-            txtCorreo.Select();
+			txtCorreo.Select();
 		}
 
-		private void Login_Load(object sender, EventArgs e)
+
+		private void btnIniciarSesion_Click(object sender, EventArgs e)
 		{
-           
+			try
+			{
+				if (txtCorreo.Text.Equals(""))
+				{
+					MetroMessageBox.Show(this, "Correo Vacío.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+					return;
+				}
+				if (txtContrasena.Text.Equals(""))
+				{
+					MetroMessageBox.Show(this, "Escriba una contraseña.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+					return;
+				}
+				Usuario usuario = new Usuario();
+				usuario.Correo = txtCorreo.Text.Trim();
+				usuario.Clave = txtContrasena.Text.Trim();
+
+
+				string webAddr = "https://portafoliapi.herokuapp.com/rest/encargadoCEM/login";
+
+				var httpWebRequest = (HttpWebRequest)WebRequest.Create(webAddr);
+				httpWebRequest.ContentType = "application/json; charset=utf-8";
+				httpWebRequest.Method = "POST";
+
+				using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+				{
+					//string json = "{ \"correo\" : \"cem@gmail.com\", \"clave\" : \"cemclave\" }";
+					string json = "{ \"correo\" : \"" + usuario.Correo + "\", \"clave\" : \"" + usuario.Clave + "\"}";
+					streamWriter.Write(json);
+					streamWriter.Flush();
+				}
+				var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+				using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+				{
+					var responseText = streamReader.ReadToEnd();
+					if (responseText == "true")
+					{
+						GUI.Menu winMenu = new GUI.Menu();
+						winMenu.ShowDialog();
+						this.Close();
+					}
+					else
+					{
+						MetroMessageBox.Show(this, "Datos Incorrectos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+					}
+					MetroMessageBox.Show(this, responseText, "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+					
+					//Now you have your response.
+					//or false depending on information in the response     
+				}
+			}
+			catch (WebException ex)
+			{
+				//MetroMessageBox.Show(this, ex.Message, "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+			}
 		}
+	}
+}
 
-        private void btnIniciarSesion_Click(object sender, EventArgs e)
-        {
-
-			#region
-			//Validaciones
-			int count = 0;
-
-                if (txtCorreo.Text.Equals("") & txtContrasena.Text.Equals(""))
-                {
-                    MetroMessageBox.Show(this, "Debe ingresar sus credenciales", "Advertencia",
-                                         MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    count++;
-                    return;
-                }
-                if (txtCorreo.Text.Equals(""))
-                {
-                    MetroMessageBox.Show(this, "Ingrese su correo electrónico", "Advertencia",
-                                         MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    count++;
-                    return;
-                }
-                if (txtContrasena.Text.Equals(""))
-                {
-                    MetroMessageBox.Show(this, "Ingrese su contraseña", "Advertencia",
-                                         MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    count++;
-                    return;
-                }
-            #endregion //Validaciones
-            //Autentificar correo y clave, probar
-            HttpClient client = new HttpClient();
-
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-            var byteArray = Encoding.ASCII.GetBytes("correo:clave");
-
-            client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray));
-            HttpResponseMessage response = client.GetAsync("http://portafoliapi.herokuapp.com/rest/encargadoCem/login").Result;
-        }
-
-        }
-    }
 

@@ -1,0 +1,8 @@
+C:\Users\super\Desktop\AppEscritorio-Portafolio\CONEXIONES\bin\Debug\CONEXIONES.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\CONEXIONES\bin\Debug\CONEXIONES.pdb
+C:\Users\super\Desktop\AppEscritorio-Portafolio\CONEXIONES\bin\Debug\RestSharp.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\CONEXIONES\bin\Debug\RestSharp.xml
+C:\Users\super\Desktop\AppEscritorio-Portafolio\CONEXIONES\obj\Debug\CONEXIONES.csprojResolveAssemblyReference.cache
+C:\Users\super\Desktop\AppEscritorio-Portafolio\CONEXIONES\obj\Debug\CONEXIONES.csproj.CoreCompileInputs.cache
+C:\Users\super\Desktop\AppEscritorio-Portafolio\CONEXIONES\obj\Debug\CONEXIONES.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\CONEXIONES\obj\Debug\CONEXIONES.pdb

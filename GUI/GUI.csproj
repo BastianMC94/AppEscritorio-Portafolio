@@ -49,6 +49,9 @@
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\net452\RestSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -127,6 +130,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CONEXIONES\CONEXIONES.csproj">
+      <Project>{8acc37ab-ee06-4294-8f33-5023eeb49409}</Project>
+      <Name>CONEXIONES</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Solucion_Montreal\APP.csproj">
       <Project>{3fa54d68-6a18-4b81-a484-1ca2e7e648be}</Project>
       <Name>APP</Name>

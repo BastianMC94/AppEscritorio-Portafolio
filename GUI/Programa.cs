@@ -33,7 +33,7 @@ namespace GUI
 		{
 			//Validaciones
 			int count = 0;
-			if (txtNombrePrograma.Text.Equals("") & txtNombrePrograma.Text.Equals(""))
+			if (txtNombrePrograma.Text.Equals(""))
 			{
 				MetroMessageBox.Show(this, "Nombre del programa no válido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
 				count++;

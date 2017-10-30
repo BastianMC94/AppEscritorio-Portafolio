@@ -77,3 +77,7 @@ C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.exe
 C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.pdb
 C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.Programa.resources
 C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.listaProgramas.resources
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\RestSharp.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\RestSharp.xml
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\CONEXIONES.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\bin\Debug\CONEXIONES.pdb

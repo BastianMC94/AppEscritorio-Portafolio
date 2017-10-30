@@ -33,3 +33,5 @@ C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\obj\Debug\APP.
 C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\obj\Debug\APP.csproj.CoreCompileInputs.cache
 C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\obj\Debug\Solucion_Montreal.dll
 C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\obj\Debug\Solucion_Montreal.pdb
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\RestSharp.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\RestSharp.xml
