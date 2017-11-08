@@ -55,7 +55,8 @@ namespace GUI
 				using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
 				{
 					//string json = "{ \"correo\" : \"cem@gmail.com\", \"clave\" : \"cemclave\" }";
-					string json = "{ \"correo\" : \"" + usuario.Correo + "\", \"clave\" : \"" + usuario.Clave + "\"}";
+					string json = "{ \"correo\" : \"" + usuario.Correo 
+                        + "\", \"clave\" : \"" + usuario.Clave + "\"}";
 					streamWriter.Write(json);
 					streamWriter.Flush();
 				}

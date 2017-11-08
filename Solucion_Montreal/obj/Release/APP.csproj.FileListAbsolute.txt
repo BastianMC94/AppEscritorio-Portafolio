@@ -1,0 +1,17 @@
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\Solucion_Montreal.dll.config
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\Solucion_Montreal.dll
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\Solucion_Montreal.pdb
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\Newtonsoft.Json.dll
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\RestSharp.dll
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\System.Net.Http.dll
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\System.Net.Http.WebRequest.dll
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\Newtonsoft.Json.xml
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\RestSharp.xml
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\System.Net.Http.xml
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Release\System.Net.Http.WebRequest.xml
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\obj\Release\APP.csprojResolveAssemblyReference.cache
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\obj\Release\Solucion_Montreal.dll
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\obj\Release\Solucion_Montreal.pdb
