@@ -52,3 +52,6 @@ C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Debug\System.Net.Http.WebRequest.dll
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Debug\System.Net.Http.xml
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Debug\MomentSharp.dll
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Debug\MomentSharp.pdb
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Debug\MomentSharp.xml

@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GUI.exe" size="808920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GUI.exe" size="807896">
       <assemblyIdentity name="GUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sHmcxC9x6XFHDn2GFcu/Na/u33wIH82SDjGu4TEwMbw=</dsig:DigestValue>
+        <dsig:DigestValue>Aia+D3n9yRXSEORLeeJw4jOmXgzPi5fPreNBX0jeZJ4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -90,6 +90,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MomentSharp.dll" size="31744">
+      <assemblyIdentity name="MomentSharp" version="1.0.6149.39352" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qIeyMdCxBIr7wmqMqnQRw9JLD5WAaEgLw/4cor4kUHY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="653824">
       <assemblyIdentity name="Newtonsoft.Json" version="10.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -114,14 +126,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Solucion_Montreal.dll" size="7680">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Solucion_Montreal.dll" size="7168">
       <assemblyIdentity name="Solucion_Montreal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mA9cHdjE9sBITRHP0wWSOR1vAbLk36zU2SrspA5Z9ps=</dsig:DigestValue>
+        <dsig:DigestValue>ps/VY1Is/px/u6K4QVfNs4Kk+nPq5m/0XxEhYL0J47M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

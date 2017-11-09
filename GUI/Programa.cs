@@ -16,6 +16,8 @@ using RestSharp;
 using System.IO;
 using APP;
 using System.Security.Principal;
+using MomentSharp;
+using Newtonsoft.Json.Linq;
 
 namespace GUI
 {
@@ -65,10 +67,10 @@ namespace GUI
                 long n = long.Parse(DateTime.Now.ToString("yyyyMMddHHmmss"));
                 
                 dateTimeFechaInicio.Format = DateTimePickerFormat.Custom;
-                dateTimeFechaInicio.CustomFormat = "dd-MM-yyyy";
+                dateTimeFechaInicio.CustomFormat = "yyyy-MM-dd";
 
                 dateTimeFechaTermino.Format = DateTimePickerFormat.Custom;
-                dateTimeFechaTermino.CustomFormat = "dd-MM-yyyy";
+                dateTimeFechaTermino.CustomFormat = "yyyy-MM-dd";
 
                 ProgramaInter pro = new ProgramaInter();
                 pro.Programa_id = Convert.ToString(n);
@@ -101,7 +103,7 @@ namespace GUI
                         + "\", \"programa_asignado\" : \"" + pro.Programa_asignado
                         + "\", \"cel_id\" : \"" + pro.Cel_id
                         + "\", \"cem_id\" : \"" + pro.Cem_id + "\"}";
-
+                    
                     streamWriter.Write(json);
                     streamWriter.Flush();
                 }

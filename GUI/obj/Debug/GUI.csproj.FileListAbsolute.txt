@@ -113,3 +113,6 @@ C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\bin\Debug\GUI.exe
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\bin\Debug\GUI.application
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.exe.manifest
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.application
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\bin\Debug\MomentSharp.dll
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\bin\Debug\MomentSharp.pdb
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\bin\Debug\MomentSharp.xml
