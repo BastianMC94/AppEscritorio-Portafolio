@@ -55,3 +55,14 @@ C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Debug\MomentSharp.dll
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Debug\MomentSharp.pdb
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\Solucion_Montreal\bin\Debug\MomentSharp.xml
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\Solucion_Montreal.dll.config
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\MomentSharp.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\System.Net.Http.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\MomentSharp.pdb
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\MomentSharp.xml
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\System.Net.Http.xml
+C:\Users\super\Desktop\AppEscritorio-Portafolio\Solucion_Montreal\bin\Debug\System.Net.Http.WebRequest.xml

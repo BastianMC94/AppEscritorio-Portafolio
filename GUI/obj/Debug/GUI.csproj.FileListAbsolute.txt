@@ -116,3 +116,7 @@ C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.app
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\bin\Debug\MomentSharp.dll
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\bin\Debug\MomentSharp.pdb
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\bin\Debug\MomentSharp.xml
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.crearCEL.resources
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.listaCEL.resources
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.listaCEM.resources
+C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.crearCEM.resources

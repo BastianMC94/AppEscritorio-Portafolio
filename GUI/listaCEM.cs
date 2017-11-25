@@ -22,9 +22,9 @@ using System.Runtime.Serialization.Json;
 
 namespace GUI
 {
-	public partial class listaProgramas : MetroForm
+	public partial class listaCEM : MetroForm
 	{
-		public listaProgramas()
+		public listaCEM()
 		{
 			InitializeComponent();
             LlenarGrilla();
@@ -46,6 +46,9 @@ namespace GUI
 
         }
 
-       
-    }
+		private void metroGridMovimientos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+		{
+
+		}
+	}
 }

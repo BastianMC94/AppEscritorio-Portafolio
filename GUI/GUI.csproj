@@ -118,11 +118,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="listaProgramas.cs">
+    <Compile Include="crearCEL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="listaProgramas.Designer.cs">
-      <DependentUpon>listaProgramas.cs</DependentUpon>
+    <Compile Include="crearCEL.Designer.cs">
+      <DependentUpon>crearCEL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listaCEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listaCEL.Designer.cs">
+      <DependentUpon>listaCEL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listaCEM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listaCEM.Designer.cs">
+      <DependentUpon>listaCEM.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -136,16 +148,22 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Programa.cs">
+    <Compile Include="crearCEM.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Programa.Designer.cs">
-      <DependentUpon>Programa.cs</DependentUpon>
+    <Compile Include="crearCEM.Designer.cs">
+      <DependentUpon>crearCEM.cs</DependentUpon>
     </Compile>
     <Compile Include="ProgramGUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="listaProgramas.resx">
-      <DependentUpon>listaProgramas.cs</DependentUpon>
+    <EmbeddedResource Include="crearCEL.resx">
+      <DependentUpon>crearCEL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listaCEL.resx">
+      <DependentUpon>listaCEL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listaCEM.resx">
+      <DependentUpon>listaCEM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -153,8 +171,8 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Programa.resx">
-      <DependentUpon>Programa.cs</DependentUpon>
+    <EmbeddedResource Include="crearCEM.resx">
+      <DependentUpon>crearCEM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

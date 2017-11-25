@@ -19,14 +19,25 @@ namespace GUI
 
 		private void btnCrearPrograma_Click(object sender, EventArgs e)
 		{
-			Programa winPrograma = new Programa();
-			winPrograma.ShowDialog();
+			crearCEM winCrearCEM = new crearCEM();
+			winCrearCEM.ShowDialog();
 		}
 
 		private void metroTile1_Click(object sender, EventArgs e)
 		{
-			listaProgramas winListaPrograma = new listaProgramas();
-			winListaPrograma.ShowDialog();
+			listaCEM winListaCEM = new listaCEM();
+			winListaCEM.ShowDialog();
+		}
+
+		private void metroTile2_Click(object sender, EventArgs e)
+		{
+			listaCEL winListaCEL = new listaCEL();
+			winListaCEL.ShowDialog();
+		}
+
+		private void metroTile3_Click(object sender, EventArgs e)
+		{
+
 		}
 	}
 }
