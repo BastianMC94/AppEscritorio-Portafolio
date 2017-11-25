@@ -57,9 +57,9 @@
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.Location = new System.Drawing.Point(67, 81);
             this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(54, 19);
+            this.lblCorreo.Size = new System.Drawing.Size(56, 19);
             this.lblCorreo.TabIndex = 1;
-            this.lblCorreo.Text = "Correo:";
+            this.lblCorreo.Text = "Usuario:";
             // 
             // lblContraseña
             // 
@@ -90,7 +90,7 @@
             this.txtCorreo.MaxLength = 32767;
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.PasswordChar = '\0';
-            this.txtCorreo.PromptText = "encargado@cem.cl";
+            this.txtCorreo.PromptText = "Usuario1";
             this.txtCorreo.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtCorreo.SelectedText = "";
             this.txtCorreo.SelectionLength = 0;
@@ -99,9 +99,10 @@
             this.txtCorreo.Size = new System.Drawing.Size(173, 23);
             this.txtCorreo.TabIndex = 3;
             this.txtCorreo.UseSelectable = true;
-            this.txtCorreo.WaterMark = "encargado@cem.cl";
+            this.txtCorreo.WaterMark = "Usuario1";
             this.txtCorreo.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtCorreo.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            
             // 
             // txtContrasena
             // 
