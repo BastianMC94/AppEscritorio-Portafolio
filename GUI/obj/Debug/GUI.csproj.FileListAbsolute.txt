@@ -85,10 +85,8 @@ C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\bin\Debug\GUI.exe
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.exe
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.pdb
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
-C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.listaProgramas.resources
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.Login.resources
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.Menu.resources
-C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.Programa.resources
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.Properties.Resources.resources
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\bin\Debug\GUI.exe
@@ -120,3 +118,7 @@ C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.crearCEL.resou
 C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.listaCEL.resources
 C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.listaCEM.resources
 C:\Users\super\Desktop\AppEscritorio-Portafolio\GUI\obj\Debug\GUI.crearCEM.resources
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.crearCEL.resources
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.listaCEL.resources
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.listaCEM.resources
+C:\Users\BASTIAN\Documents\AppEscritorio-Portafolio-master\GUI\obj\Debug\GUI.crearCEM.resources

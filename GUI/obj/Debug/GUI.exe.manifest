@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GUI.exe" size="807384">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GUI.exe" size="810968">
       <assemblyIdentity name="GUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rQuZyFpC88m70XgRdBq0UF49DA26Vzfg6xp9EZlskBo=</dsig:DigestValue>
+        <dsig:DigestValue>ANxp1JRe8Cpr6hHgRpjsCQXSFAT5PhKllVN2xmryssg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -126,14 +126,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Solucion_Montreal.dll" size="7168">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Solucion_Montreal.dll" size="6656">
       <assemblyIdentity name="Solucion_Montreal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ps/VY1Is/px/u6K4QVfNs4Kk+nPq5m/0XxEhYL0J47M=</dsig:DigestValue>
+        <dsig:DigestValue>fTiTbsE3n0dDTv7m48+Wpien/SvbNdJqZRpggNS8Fho=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

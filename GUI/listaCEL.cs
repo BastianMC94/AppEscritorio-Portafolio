@@ -27,9 +27,26 @@ namespace GUI
 		public listaCEL()
 		{
 			InitializeComponent();
+            LlenarGrilla();
             
         }
+        private void LlenarGrilla()
+        {
+
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri("https://portafoliapi.herokuapp.com/rest/");
+            HttpResponseMessage response = client.GetAsync("encargadoCEL/listarTodos").Result;
+            var listacel = response.Content.ReadAsAsync<IEnumerable<listarCEL>>().Result;
 
 
-	}
+
+            metroGridMovimientos.DataSource = listacel;
+        }
+           //metroGridMovimientos.DataBindings();
+
+        private void metroGridMovimientos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+    }
 }

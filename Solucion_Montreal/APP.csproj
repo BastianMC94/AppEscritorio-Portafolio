@@ -72,10 +72,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="listarPrograma.cs" />
-    <Compile Include="ProgramaInter.cs" />
+    <Compile Include="EncargadoCEL.cs" />
+    <Compile Include="EncargadoCEM.cs" />
+    <Compile Include="listarCEL.cs" />
+    <Compile Include="listarCEM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Usuario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

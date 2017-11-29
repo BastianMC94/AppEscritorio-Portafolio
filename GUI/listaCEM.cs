@@ -35,20 +35,17 @@ namespace GUI
 
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("https://portafoliapi.herokuapp.com/rest/");
-            HttpResponseMessage response = client.GetAsync("programa/listarTodos").Result;
-            var prog = response.Content.ReadAsAsync<IEnumerable<listarPrograma>>().Result;
+            HttpResponseMessage response = client.GetAsync("encargadoCEM/listarTodos").Result;
+            var listacem = response.Content.ReadAsAsync<IEnumerable<listarCEM>>().Result;
 
            
 
-            metroGridMovimientos.DataSource = prog;
+            metroGridMovimientos.DataSource = listacem;
            //metroGridMovimientos.DataBindings();
 
 
         }
 
-		private void metroGridMovimientos_CellContentClick(object sender, DataGridViewCellEventArgs e)
-		{
-
-		}
-	}
+	
+    }
 }

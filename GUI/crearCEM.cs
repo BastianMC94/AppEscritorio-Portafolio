@@ -28,112 +28,87 @@ namespace GUI
             InitializeComponent();
         }
 
-        private void txtCupos_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
-            {
-                MetroMessageBox.Show(this, "Solo se permiten números.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                e.Handled = true;
-                return;
-            }
-        }
-
+       
         private void btnCrear_Click(object sender, EventArgs e)
         {
-            //try
-            //{
-            //    int count = 0;
-            //    if (txtNombrePrograma.Text.Equals(""))
-            //    {
-            //        MetroMessageBox.Show(this, "Nombre del programa no válido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //        count++;
-            //        return;
-            //    }
-            //    if (txtDescripcion.Text.Equals("") & txtDescripcion.Text.Equals(""))
-            //    {
-            //        MetroMessageBox.Show(this, "Descripción no válida.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //        count++;
-            //        return;
-            //    }
-            //    if (txtPaisDestino.Text.Equals("") & txtPaisDestino.Text.Equals(""))
-            //    {
-            //        MetroMessageBox.Show(this, "País de destino no válido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //        count++;
-            //        return;
-            //    }
+            try
+            {
+                //int count = 0;
+                //if (txtNombrePrograma.Text.Equals(""))
+                //{
+                //    MetroMessageBox.Show(this, "Nombre del programa no válido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //    count++;
+                //    return;
+                //}
+                //if (txtDescripcion.Text.Equals("") & txtDescripcion.Text.Equals(""))
+                //{
+                //    MetroMessageBox.Show(this, "Descripción no válida.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //    count++;
+                //    return;
+                //}
+                //if (txtPaisDestino.Text.Equals("") & txtPaisDestino.Text.Equals(""))
+                //{
+                //    MetroMessageBox.Show(this, "País de destino no válido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //    count++;
+                //    return;
+                //}
 
 
 
-            //    long n = long.Parse(DateTime.Now.ToString("yyyyMMddHHmmss"));
+                long n = long.Parse(DateTime.Now.ToString("yyyyMMddHHmmss"));
+
+                EncargadoCEM cem = new EncargadoCEM();
+                cem.Cem_id = Convert.ToString(n);
+                cem.Sede = txtInstitucion.Text.Trim();
+                cem.Correo = txtCorreo.Text.Trim();
+                cem.Clave = txtClave.Text.Trim();
                 
-            //    dateTimeFechaInicio.Format = DateTimePickerFormat.Custom;
-            //    dateTimeFechaInicio.CustomFormat = "yyyy-MM-dd";
 
-            //    dateTimeFechaTermino.Format = DateTimePickerFormat.Custom;
-            //    dateTimeFechaTermino.CustomFormat = "yyyy-MM-dd";
+                string webAddr = "https://portafoliapi.herokuapp.com/rest/encargadoCEM/crear";
 
-            //    ProgramaInter pro = new ProgramaInter();
-            //    pro.Programa_id = Convert.ToString(n);
-            //    pro.Nombre_programa = txtNombrePrograma.Text.Trim();
-            //    pro.Descripcion = txtDescripcion.Text.Trim();
-            //    pro.Pais_destino = txtPaisDestino.Text.Trim();
-            //    pro.Fecha_inicio = dateTimeFechaInicio.Text.Trim();
-            //    pro.Fecha_termino = dateTimeFechaTermino.Text.Trim();
-            //    pro.Cupos = Convert.ToInt32(txtCupos.Text.Trim());
-            //    pro.Programa_asignado = '0';
-            //    pro.Cel_id = null;
-            //    pro.Cem_id = "cem_id";
+                var httpWebRequest = (HttpWebRequest)WebRequest.Create(webAddr);
+                httpWebRequest.ContentType = "application/json; charset=utf-8";
+                httpWebRequest.Method = "POST";
 
-            //    string webAddr = "https://portafoliapi.herokuapp.com/rest/programa/crear";
+                using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+                {
+                    //string json = "{ \"correo\" : \"cem@gmail.com\", \"clave\" : \"cemclave\" }";
+                    string json = "{ \"cem_id\" : \"" + cem.Cem_id
+                        + "\", \"intitucion\" : \"" + cem.Sede
+                        + "\", \"correo\" : \"" + cem.Correo
+                        + "\", \"clave\" : \"" + cem.Clave
+                        + "\"}";
 
-            //    var httpWebRequest = (HttpWebRequest)WebRequest.Create(webAddr);
-            //    httpWebRequest.ContentType = "application/json; charset=utf-8";
-            //    httpWebRequest.Method = "POST";
+                    streamWriter.Write(json);
+                    streamWriter.Flush();
+                }
+                var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+                using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+                {
+                    var responseText = streamReader.ReadToEnd();
+                    if (responseText == "true")
+                    {
+                        MetroMessageBox.Show(this, "Se ha ingresado satisfactoriamente un encargado CEM al sistema", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MetroMessageBox.Show(this, "Datos Incorrectos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    //MetroMessageBox.Show(this, responseText, "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            //    using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
-            //    {
-            //        //string json = "{ \"correo\" : \"cem@gmail.com\", \"clave\" : \"cemclave\" }";
-            //        string json = "{ \"programa_id\" : \"" + pro.Programa_id
-            //            + "\", \"nombre_programa\" : \"" + pro.Nombre_programa
-            //            + "\", \"descripcion\" : \"" + pro.Descripcion
-            //            + "\", \"pais_destino\" : \"" + pro.Pais_destino
-            //            + "\", \"fecha_inicio\" : \"" + pro.Fecha_inicio
-            //            + "\", \"fecha_termino\" : \"" + pro.Fecha_termino
-            //            + "\", \"cupos\" : \"" + pro.Cupos
-            //            + "\", \"programa_asignado\" : \"" + pro.Programa_asignado
-            //            + "\", \"cel_id\" : \"" + pro.Cel_id
-            //            + "\", \"cem_id\" : \"" + pro.Cem_id + "\"}";
-                    
-            //        streamWriter.Write(json);
-            //        streamWriter.Flush();
-            //    }
-            //    var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-            //    using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
-            //    {
-            //        var responseText = streamReader.ReadToEnd();
-            //        if (responseText == "true")
-            //        {
-            //            MetroMessageBox.Show(this, "Se ha ingresado satisfactoriamente el programa", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //        }
-            //        else
-            //        {
-            //            MetroMessageBox.Show(this, "Datos Incorrectos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //        }
-            //        //MetroMessageBox.Show(this, responseText, "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            //        txtNombrePrograma.Text = string.Empty;
-            //        txtDescripcion.Text = string.Empty;
-            //        txtPaisDestino.Text = string.Empty;
-            //        txtCupos.Text = string.Empty;
+                    txtInstitucion.Text = string.Empty;
+                    txtCorreo.Text = string.Empty;
+                    txtClave.Text = string.Empty;
+                   
 
 
-            //    }
-            //}
-            //catch (Exception)
-            //{
+                }
+            }
+            catch (Exception)
+            {
 
 
-            //}
+            }
 
 
 
@@ -148,7 +123,6 @@ namespace GUI
             //}
 
         }
-        
-        
+
     }
 }
